@@ -11,6 +11,26 @@ const perguntas = [
     enunciado: "Quem deve responder por erros causados por uma IA?",
     alternativas: ["Desenvolvedores", "Usuários", "Empresas"],
   },
+  {
+    enunciado: "Deve-se exigir transparência sobre como modelos tomam decisões?",
+    alternativas: ["Sim, sempre", "Só em casos críticos", "Não é necessário"],
+  },
+  {
+    enunciado: "A automação por IA deve priorizar proteção de empregos?",
+    alternativas: ["Sim", "Não", "Compensação/treinamento"],
+  },
+  {
+    enunciado: "Dados pessoais podem ser usados para treinar IAs sem consentimento?",
+    alternativas: ["Nunca", "Com anonimização", "Com consentimento explícito"],
+  },
+  {
+    enunciado: "IA na educação deve adaptar conteúdo ao aluno?",
+    alternativas: ["Sim, personalizar", "Não, manter padrão", "Híbrido"],
+  },
+  {
+    enunciado: "Como priorizar segurança ao desenvolver IAs avançadas?",
+    alternativas: ["Testes rigorosos", "Regulação externa", "Combinação de abordagens"],
+  },
 ];
 
 let indexAtual = 0;
